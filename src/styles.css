@@ -54,23 +54,23 @@
   --radius: 0.75rem;
 
   /* Brand core — dark mode native */
-  --background: oklch(0.08 0.02 270);          /* #03040C deep black */
-  --surface: oklch(0.12 0.035 270);            /* #0A0D1E night blue */
-  --surface-elevated: oklch(0.16 0.04 270);    /* #0B0F1D */
+  --background: oklch(0.09 0.02 265);          /* #000F14 deep night */
+  --surface: oklch(0.13 0.035 270);            /* #0D0F1D */
+  --surface-elevated: oklch(0.17 0.04 275);    /* #14172A */
   --foreground: oklch(0.97 0.005 250);         /* #F2F4F7 ice white */
   --muted: oklch(0.18 0.03 270);
-  --muted-foreground: oklch(0.65 0.02 260);
+  --muted-foreground: oklch(0.66 0.02 260);
 
-  --card: oklch(0.12 0.035 270);
+  --card: oklch(0.13 0.035 270);
   --card-foreground: oklch(0.97 0.005 250);
-  --popover: oklch(0.12 0.035 270);
+  --popover: oklch(0.13 0.035 270);
   --popover-foreground: oklch(0.97 0.005 250);
 
-  --primary: oklch(0.58 0.25 287);             /* #6A3DFF purple */
+  --primary: oklch(0.56 0.26 287);             /* #5A3DFF Nexora purple */
   --primary-foreground: oklch(0.98 0 0);
-  --electric: oklch(0.64 0.24 285);            /* #7D4DFF */
-  --neon: oklch(0.6 0.24 265);                 /* #3268FF blue */
-  --cyan-accent: oklch(0.78 0.13 200);         /* #2EC6D3 */
+  --electric: oklch(0.62 0.25 285);            /* electric violet */
+  --neon: oklch(0.58 0.24 265);                /* #2962FF blue */
+  --cyan-accent: oklch(0.78 0.13 185);         /* #00E5C3 mint */
 
   --secondary: oklch(0.18 0.03 270);
   --secondary-foreground: oklch(0.97 0.005 250);
@@ -85,8 +85,8 @@
   --ring: oklch(0.58 0.25 287);
 
   /* Signature gradient */
-  --gradient-brand: linear-gradient(90deg, #7A3EFF 0%, #5A5EFF 45%, #2D8CFF 100%);
-  --gradient-radial: radial-gradient(circle at 50% 50%, #6A3DFF 0%, #0A0D1E 70%);
+  --gradient-brand: linear-gradient(135deg, #5A3DFF 0%, #4B5BFF 50%, #2962FF 100%);
+  --gradient-radial: radial-gradient(circle at 50% 50%, #5A3DFF 0%, #0D0F1D 70%);
   --shadow-glow: 0 0 80px -10px rgba(122, 62, 255, 0.5);
   --shadow-glow-blue: 0 0 60px -10px rgba(50, 104, 255, 0.45);
 }
