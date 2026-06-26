@@ -284,7 +284,7 @@ function BrandKit() {
       {/* 03 COLORS */}
       <section id="s03" className="border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-24">
-          <SectionNum num="03" eyebrow={<><Palette className="inline size-3" /> Palette</>.toString().replace(/<.*?>/g, '')} title="Colors" />
+          <SectionNum num="03" eyebrow="Palette" title="Colors" />
           <div className="grid gap-6 lg:grid-cols-12">
             <div className="grid grid-cols-5 gap-3 lg:col-span-7">
               {colors.map(c => (
