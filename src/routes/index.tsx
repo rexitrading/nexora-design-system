@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   Check, Copy, Sparkles, Layers, Type, Palette, Grid3x3,
@@ -144,9 +144,9 @@ function BrandKit() {
               <a key={n} href={`#s${n}`} className="transition-colors hover:text-foreground">{t}</a>
             ))}
           </nav>
-          <button className="inline-flex items-center gap-1.5 rounded-full bg-gradient-brand px-4 py-2 text-xs font-medium text-white glow-purple transition-transform hover:scale-105">
-            Download <ArrowUpRight className="size-3.5" />
-          </button>
+          <Link to="/showcase" className="inline-flex items-center gap-1.5 rounded-full bg-gradient-brand px-4 py-2 text-xs font-medium text-white glow-purple transition-transform hover:scale-105">
+            View showcase <ArrowUpRight className="size-3.5" />
+          </Link>
         </div>
       </header>
 
